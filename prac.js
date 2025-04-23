@@ -8,4 +8,5 @@ let num2 = 10;
 let sum = num1 + num2;
 
 // Display the result
-console.log("The sum is: " + sum);
+console.log("The sum of two numbers is: " + sum);
+
