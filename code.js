@@ -8,6 +8,7 @@ function removeAllChar(str,ch){
     //     }
     // }
     // return result;
+    //test
     return str.split(ch).join('');
 }
 
