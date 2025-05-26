@@ -94,6 +94,10 @@ function reverseString(str){
     return str.split('').reverse().join('');
 }
 
+function reverseWordsInSentence(str){
+    return str.split(' ').map(word => word.split('').reverse().join('')).join(' ');
+}
+
 // console.log(removeAllChar('hello world','o'));
 // console.log(replaceAllChar('hello world','o','a'));
 // console.log(sortArray(['apple','banana','water melon','cherry','date']));
