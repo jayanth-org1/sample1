@@ -90,6 +90,10 @@ function isPalindrome(str){
     return str === str.split('').reverse().join('');
 }
 
+function reverseString(str){
+    return str.split('').reverse().join('');
+}
+
 // console.log(removeAllChar('hello world','o'));
 // console.log(replaceAllChar('hello world','o','a'));
 // console.log(sortArray(['apple','banana','water melon','cherry','date']));
@@ -100,3 +104,4 @@ function isPalindrome(str){
 // console.log(validParentheses('{})'));
 // console.log(longestWordInSentence('The quick brown fox jumps over the lazy dog'));
 console.log(isPalindrome('madam'));
+console.log(reverseString('hello'));
