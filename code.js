@@ -99,7 +99,7 @@ function reverseWordsInSentence(str){
 }
 
 function convertToString(num){
-    if(typeof num !== 'number' || Number.isNaN(num)) throw new Error('Invalid input');
+    if(typeof num !== 'number' || Number.isNaN(num) === true) throw new Error('Invalid input');
     return num.toString();
 }
 
