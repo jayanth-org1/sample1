@@ -98,6 +98,12 @@ function reverseWordsInSentence(str){
     return str.split(' ').map(word => word.split('').reverse().join('')).join(' ');
 }
 
+function convertToString(num){
+    if(num === null || num === undefined) throw new Error('Invalid input');
+    if(typeof num !== 'number') throw new Error('Invalid input');
+    return num.toString();
+}
+
 // console.log(removeAllChar('hello world','o'));
 // console.log(replaceAllChar('hello world','o','a'));
 // console.log(sortArray(['apple','banana','water melon','cherry','date']));
