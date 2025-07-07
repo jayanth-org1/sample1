@@ -105,3 +105,4 @@ function reverseWordsInSentence(str){
 // console.log(longestWord(['banana','water melon','cherry','date','apple','banana', 'apple']));
 // console.log(sumByReduce([1,2,3,4,5]));
 // console.log(expandString('a2b4c5'))
+// console.log(expandString('a2b4c5'))
