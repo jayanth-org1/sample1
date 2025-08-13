@@ -13,6 +13,7 @@
   "dependencies": {
     "@faker-js/faker": "^8.3.1",
     "@chownr": "1.0.1",
-    "koa": "2.16.2"
+    "koa": "2.16.2",
+    "@ladle/react": "1.4.0"
   }
 }
