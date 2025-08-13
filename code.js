@@ -28,7 +28,6 @@ function replaceAllChar(str,ch,ch2){
 function sortArray(arr){
     return arr.sort((a,b)=>a.length-b.length);
 
-    // return arr.sort((a,b)=>b.length-a.length);
 
 }
 
