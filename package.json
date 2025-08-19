@@ -1,0 +1,13 @@
+{
+  "name": "jayanth-org1-sample1",
+  "version": "1.0.0",
+  "description": "A collection of utility functions with faker integration",
+  "main": "code.js",
+  "scripts": {
+    "start": "node code.js",
+    "test": "node trigger.js"
+  },
+  "keywords": ["utility", "faker", "random", "animals"],
+  "author": "",
+  "license": "MIT"
+}
