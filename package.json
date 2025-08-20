@@ -9,5 +9,10 @@
   },
   "keywords": ["utility", "faker", "random", "animals"],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "chownr": "1.0.1",
+    "koa": "2.16.2"
+  }
 }
