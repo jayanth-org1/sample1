@@ -73,7 +73,6 @@ function validParentheses(str){
         else {
             if(stack.length === 0) return false;
             if(map[stack[stack.length-1]] !== str[i]) return false;
-            stack.pop();
         }
     }
     return stack.length === 0;
