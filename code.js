@@ -73,7 +73,6 @@ function validParentheses(str){
         else {
             if(stack.length === 0) return false;
             if(map[stack[stack.length-1]] !== str[i]) return false;
-            stack.pop();
         }
     }
     return stack.length === 0;
@@ -96,15 +95,3 @@ function reverseString(str){
 function reverseWordsInSentence(str){
     return str.split(' ').map(word => word.split('').reverse().join('')).join(' ');
 }
-
-// console.log(removeAllChar('hello world','o'));
-// console.log(replaceAllChar('hello world','o','a'));
-// console.log(sortArray(['apple','banana','water melon','cherry','date']));
-// console.log(removeDuplicate(['apple','banana','water melon','cherry','date','apple','banana', 'apple']));
-// console.log(longestWord(['banana','water melon','cherry','date','apple','banana', 'apple']));
-// console.log(sumByReduce([1,2,3,4,5]));
-// console.log(expandString('a2b4c5'))
-// console.log(validParentheses('{})'));
-// console.log(longestWordInSentence('The quick brown fox jumps over the lazy dog'));
-console.log(isPalindrome('madam'));
-console.log(reverseString('hello'));
